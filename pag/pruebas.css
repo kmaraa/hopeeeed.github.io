@@ -1,0 +1,4839 @@
+@font-face {
+    font-family: Cocogoose Pro;
+    src: url(CocogoosePro.ttf);
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    color: none;
+    background-color: none;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: antiquewhite;
+    width: 2px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: antiquewhite;
+}
+
+body{
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background-image: url(img/);
+    
+}
+
+
+
+/*MENU*//*MENU*/
+/*MENU*//*MENU*/
+/*MENU*//*MENU*/
+
+/*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*/
+/*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*/
+/*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*//*MENU DESPLEGABLE*/
+
+
+/* movil *//* movil *//* movil */
+/* movil *//* movil *//* movil */
+@media screen  and (min-width: 768px) and (max-width: 990px){
+    /*MENU APARECE DESAPARECE*/
+
+.w_m_movimiento_barra{
+    
+    display: flex;
+    
+    align-items: center;
+    position: fixed;
+    transition: top 0.9s;
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+.w_m_main_menus{
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    
+    width: 100%;
+
+}
+
+
+/*TREBOL*//*TREBOL*/
+.w_m_trebol_menu_top{
+    text-align: center;
+}
+.w_m_trebol_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+
+.w_m_trebol_menu_top img :hover{
+    background-color: red;
+}
+/*NAIPE*//*NAIPE*/
+.w_m_naipe_menu_top{
+text-align: center;
+}
+.w_m_naipe_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+/*MAIN MENU PRINCIPAL*//*MAIN MENU PRINCIPAL*/
+.w_m_main_menu_top{
+text-align: center;
+}
+.w_m_main_menu_top img{
+    height: 70px;
+    width: auto;
+
+    padding-top: 10px;
+    padding-bottom: auto;
+}
+/*CORAZON*//*CORAZON*/
+.w_m_corazon_menu_top{
+    text-align: center;
+
+}
+.w_m_corazon_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+
+    
+}
+/*DIAMANTE*//*DIAMANTE*/
+.w_m_diamante_menu_top{
+text-align: center;
+}
+.w_m_diamante_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+}
+
+/* IPAD-PRO-TV *//* IPAD-PRO-TV *//* IPAD-PRO-TV */
+/* IPAD-PRO-TV *//* IPAD-PRO-TV *//* IPAD-PRO-TV */
+@media screen  and (min-width: 990px) and (max-width: 1477px){
+    /*MENU APARECE DESAPARECE*/
+
+.w_m_movimiento_barra{
+    
+    display: flex;
+    
+    align-items: center;
+    position: fixed;
+    transition: top 0.9s;
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+.w_m_main_menus{
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    
+    width: 100%;
+
+}
+
+
+/*TREBOL*//*TREBOL*/
+.w_m_trebol_menu_top{
+    text-align: center;
+}
+.w_m_trebol_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+
+.w_m_trebol_menu_top img :hover{
+    background-color: red;
+}
+/*NAIPE*//*NAIPE*/
+.w_m_naipe_menu_top{
+text-align: center;
+}
+.w_m_naipe_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+/*MAIN MENU PRINCIPAL*//*MAIN MENU PRINCIPAL*/
+.w_m_main_menu_top{
+text-align: center;
+}
+.w_m_main_menu_top img{
+    height: 70px;
+    width: auto;
+
+    padding-top: 10px;
+    padding-bottom: auto;
+}
+/*CORAZON*//*CORAZON*/
+.w_m_corazon_menu_top{
+    text-align: center;
+
+}
+.w_m_corazon_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+
+    
+}
+/*DIAMANTE*//*DIAMANTE*/
+.w_m_diamante_menu_top{
+text-align: center;
+}
+.w_m_diamante_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+}
+
+
+/* pc *//* pc *//* pc *//* pc *//* pc *//* pc *//* pc */
+/* pc *//* pc *//* pc *//* pc *//* pc *//* pc *//* pc */
+
+@media screen  and (min-width: 1477px){
+    /*MENU APARECE DESAPARECE*/
+
+.w_m_movimiento_barra{
+    
+    display: flex;
+    
+    align-items: center;
+    position: fixed;
+    transition: top 0.9s;
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+/* MENUS PRINCIPALES *//* MENUS PRINCIPALES */
+.w_m_main_menus{
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    
+    width: 100%;
+
+}
+
+
+/*TREBOL*//*TREBOL*/
+.w_m_trebol_menu_top{
+    text-align: center;
+}
+.w_m_trebol_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+
+.w_m_trebol_menu_top img :hover{
+    background-color: red;
+}
+/*NAIPE*//*NAIPE*/
+.w_m_naipe_menu_top{
+text-align: center;
+}
+.w_m_naipe_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+/*MAIN MENU PRINCIPAL*//*MAIN MENU PRINCIPAL*/
+.w_m_main_menu_top{
+text-align: center;
+}
+.w_m_main_menu_top img{
+    height: 70px;
+    width: auto;
+
+    padding-top: 10px;
+    padding-bottom: auto;
+}
+/*CORAZON*//*CORAZON*/
+.w_m_corazon_menu_top{
+    text-align: center;
+
+}
+.w_m_corazon_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+
+    
+}
+/*DIAMANTE*//*DIAMANTE*/
+.w_m_diamante_menu_top{
+text-align: center;
+}
+.w_m_diamante_menu_top img{
+    height: 60px;
+    width: auto;
+
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+}
+
+
+
+
+
+
+/*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*/
+/*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*/
+/*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*//*MENU FIJO*/
+
+
+/* movil *//* movil *//* movil */
+/* movil *//* movil *//* movil */
+
+@media screen  and (min-width: 768px) and (max-width: 990px){
+ /* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+body{
+    background-color: none;
+    
+}
+
+
+button{
+    border: none;
+}
+
+
+
+
+/*barra menu*/
+
+
+.w_px_barra_menu_ancla{
+    margin-top: 4px;
+    margin-bottom: 60px;
+    
+    width: 100%;
+
+    height: 20px;
+ 
+    color: none;
+}
+
+.w_m_barra-menu{
+    /*text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    
+    background-color: none;
+    margin-top: 20px;
+
+    list-style: none;
+
+    width: 100%;
+    margin: 1%;
+
+    margin-top: 180px;
+    
+    
+    position: fixed;
+}
+
+
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+.w_m_uno-l1{
+    background-color: none;
+    width: 0px;
+    
+    
+    
+}
+/* TITULO + PICO */
+.w_m_titulo-uno{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+}
+
+/* CAJAS */
+.w_m_caja_morada_uno_clothing{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    background-color: none;
+
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 50%;
+    
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+
+
+    
+}
+
+
+/*CAJA VERDE*/
+
+.w_m_caja_verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_hoodie{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: 20%;
+
+}
+
+.w_m_sudadera_uno_hoodie:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_uno{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+
+
+    list-style: none;
+    
+    
+   
+
+    background-color: none;
+
+    text-align: left;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_uno{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    float: left;
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_uno:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_uno-l1  ul {
+    display: none; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_uno-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.dos li:hover > ul {
+    display: grid;
+}
+
+
+/* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* DOS */
+.w_m_dos-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-dos{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 145px;
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_dos_characters{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+
+    height: 280px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_character{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.w_m_sudadera_uno_character:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_dos{
+
+    
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_dos{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_dos{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_dos:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_dos-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_dos-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*/
+/* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* TRES */
+.w_m_tres-l1{
+    width: 0px;
+    background-color: none;
+}
+/* TITULO + PICO */
+.w_m_titulo-tres{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 334px;
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_tres_drops{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    background-color: none;
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    background-color: none;
+    
+    width: 94.3%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 920px;
+
+    
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+    width: 200px;
+    height: auto;
+    
+}
+
+
+/* CONTADOR TREBOL */
+
+
+
+.caja1{
+    flex: 1;
+    width: 450px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+    
+}
+
+.caja2{
+    flex: 1;
+    width: 450px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+
+    margin-top: -250px;
+    
+}
+.oferta{
+    margin-bottom: 12px;
+    font-family: Cocogoose Pro light;
+    font-size: 12px;
+    
+}
+
+.names{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+
+    color: black;
+    text-decoration: none;
+
+    text-align: center;
+
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+.names:hover{
+    text-decoration: line-through;
+    
+}
+
+/* NUMEROS MAIN */
+.trebol-contador{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 450px;
+    height: 200px;
+
+    background-color: none;
+}
+/* OTRA BAINA /*/
+.simply-section{
+    font-family: Cocogoose Pro light;
+    width: 24px;
+    height: auto;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: none;
+}
+.simply-amount{
+    font-family: Cocogoose Pro light;
+    display: block;
+    font-size: 40px;
+    font-weight: 150;
+
+    background-color: none;
+}
+.simply-word{
+    font-family: Cocogoose Pro light;
+
+    background-color: none;
+}
+.productos-oferta{
+    margin-top: 12px;
+}
+.productos-oferta:hover{
+    text-decoration: line-through;
+    
+}
+
+.prodcutos{
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: Cocogoose Pro light;
+    color: black;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+
+.w_m_prodcutos:hover{
+    text-decoration: line-through;
+    
+}
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo-uno{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+.caja13{
+    flex: 1;
+    width: 450px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    margin-top: -470px;
+
+    margin-left: 130%;
+    
+    background-color: none;
+}
+/* DESPLEGABLES */
+
+.w_m_tres-l1  ul {
+    display:  none; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_tres-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO */
+.w_m_cuatro-l1{
+    width: 0px;
+    background-color: blue;
+}
+
+/* TITULO + PICO */
+.w_m_titulo-cuatro{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 455px;
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_cuatro_about{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_cuatro{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cuatro{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cuatro{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_cuatro:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cuatro-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cuatro-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO */
+.w_m_cinco-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-cinco{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+    margin-left: 575px;
+    
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_cinco_contact{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    height: 320px;
+}
+
+
+.w_m_caja_verde_cinco{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 25px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_tittle_cinco{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_tittle_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+
+
+/* ARTICULOS */
+.w_m_articulos_cinco{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cinco{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cinco{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    
+
+    text-align: left;
+    
+    text-decoration: none;
+
+    margin-left: -40px;
+
+    margin-top: -1px;
+    
+}
+
+.w_m_palabra_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+.w_m_palabras_cinco{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_palabras_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+/*TRABAJA CON NOSOTROS*/
+.w_m_work_with_us{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+
+
+.link_correo{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+
+    text-decoration: line-through;
+}
+
+
+
+/*EMAIL*/
+
+.w_m_tittle_cinco_email{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-top: -380px;
+}
+
+.w_m_tittle_cinco_email:hover{
+    text-decoration: line-through;
+}
+
+.w_m_articulos_cinco_email{
+    margin-top: -330px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+    
+}
+
+.w_m_articulo_cinco_email{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+
+.w_m_correo1{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_correo1:hover{
+    text-decoration: line-through;
+}
+
+.w_m_correo2{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: -5px;
+}
+
+.w_m_correo2:hover{
+    text-decoration: line-through;
+}
+
+
+/* LOGIN */
+
+.w_m_login{
+    box-sizing: border-box;
+    text-align: center;
+
+    background-color: none;
+    
+
+    width: 195px;
+    margin-left: 0px;
+}
+
+
+.w_m_formulario__login{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-right: 180px;
+
+    width: 185px;
+
+    margin-top: -14px;
+}
+.w_m_formulario__login h2{
+    font-family: Cocogoose Pro light;
+    
+}
+.w_m_formulario__login input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+
+    
+}
+.w_m_formulario__login button{
+    margin-top: 12px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    margin-left: 45px;
+    margin-right: auto;
+    width: 100px;
+}
+
+/* register */
+.w_m_formulario__register{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-top: -14px;
+    font-family:  Cocogoose Pro light;
+    text-align: center;
+
+    width: 195px;
+    margin-left: -40px;
+}
+
+.w_m_formulario__register input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+}
+
+.w_m_formulario__register button{
+    margin-top: 12px;
+    background: black;
+    color: white;
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+
+.w_m_ventajas h2{
+    box-sizing: border-box;
+    margin-top: 24px;
+    font-family: Cocogoose Pro light;
+}
+.w_m_ventajas p{
+    margin-top: 12px;
+    font-family: Cocogoose Pro light;
+}
+
+
+/* REDES */
+.w_m_articulo-seis{
+    margin-top: 15px ;
+
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cinco-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cinco-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+    
+}
+
+/* IPAD-PRO-TV *//* IPAD-PRO-TV *//* IPAD-PRO-TV */
+/* IPAD-PRO-TV *//* IPAD-PRO-TV *//* IPAD-PRO-TV */
+@media screen  and (min-width: 990px) and (max-width: 1477px){
+    
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+body{
+    background-color: none;
+    
+}
+
+
+button{
+    border: none;
+}
+
+
+
+
+/*barra menu*/
+
+
+.w_px_barra_menu_ancla{
+    margin-top: 4px;
+    margin-bottom: 60px;
+    
+    width: 100%;
+
+    height: 20px;
+ 
+    color: none;
+}
+
+.w_m_barra-menu{
+    /*text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    
+    background-color: none;
+    margin-top: 20px;
+
+    list-style: none;
+
+    width: 100%;
+    margin: 1%;
+
+    margin-top: 180px;
+    
+    
+    position: fixed;
+}
+
+
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+.w_m_uno-l1{
+    background-color: none;
+    width: 0px;
+    
+    
+    
+}
+/* TITULO + PICO */
+.w_m_titulo-uno{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+}
+
+/* CAJAS */
+.w_m_caja_morada_uno_clothing{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    background-color: none;
+
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 50%;
+    
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+
+
+    
+}
+
+
+/*CAJA VERDE*/
+
+.w_m_caja_verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_hoodie{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: 20%;
+
+}
+
+.w_m_sudadera_uno_hoodie:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_uno{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+
+
+    list-style: none;
+    
+    
+   
+
+    background-color: none;
+
+    text-align: left;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_uno{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    float: left;
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_uno:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_uno-l1  ul {
+    display: none; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_uno-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.dos li:hover > ul {
+    display: grid;
+}
+
+
+/* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* DOS */
+.w_m_dos-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-dos{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 145px;
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_dos_characters{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+
+    height: 280px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_character{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.w_m_sudadera_uno_character:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_dos{
+
+    
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_dos{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_dos{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_dos:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_dos-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_dos-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*/
+/* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* TRES */
+.w_m_tres-l1{
+    width: 0px;
+    background-color: none;
+}
+/* TITULO + PICO */
+.w_m_titulo-tres{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 334px;
+    
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_tres_drops{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 415px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+    width: 250px;
+    height: auto;
+}
+
+
+/* CONTADORES */
+
+
+
+.caja1{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+}
+.caja2{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+}
+.oferta{
+    margin-bottom: 12px;
+    font-family: Cocogoose Pro light;
+    font-size: 12px;
+    
+}
+
+.names{
+    font-family: Cocogoose Pro light;
+    font-size: 20px;
+
+    color: black;
+    text-decoration: none;
+
+    text-align: center;
+
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+/* NUMEROS MAIN */
+.trebol-contador{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 250px;
+    height: 120px;
+
+    background-color: none;
+}
+/* OTRA BAINA /*/
+.simply-section{
+    font-family: Cocogoose Pro light;
+    width: 24px;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: none;
+}
+.simply-amount{
+    font-family: Cocogoose Pro light;
+    display: block;
+    font-size: 30px;
+    font-weight: 550;
+
+    background-color: none;
+}
+.simply-word{
+    font-family: Cocogoose Pro light;
+
+    background-color: none;
+}
+.productos-oferta{
+    margin-top: 12px;
+}
+
+.prodcutos{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cocogoose Pro light;
+    color: black;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+
+.w_m_prodcutos:hover{
+    text-decoration: line-through;
+    
+}
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo-uno{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+.caja13{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    margin-top: -330px;
+    
+    background-color: none;
+
+    margin-left: 192%;
+}
+
+
+
+/* DESPLEGABLES */
+
+.w_m_tres-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_tres-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO */
+.w_m_cuatro-l1{
+    width: 0px;
+    background-color: blue;
+}
+
+/* TITULO + PICO */
+.w_m_titulo-cuatro{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 455px;
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_cuatro_about{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_cuatro{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cuatro{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cuatro{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_cuatro:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cuatro-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cuatro-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO */
+.w_m_cinco-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-cinco{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+    margin-left: 575px;
+    
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_cinco_contact{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    height: 320px;
+}
+
+
+.w_m_caja_verde_cinco{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 25px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_tittle_cinco{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_tittle_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+
+
+/* ARTICULOS */
+.w_m_articulos_cinco{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cinco{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cinco{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    
+
+    text-align: left;
+    
+    text-decoration: none;
+
+    margin-left: -40px;
+
+    margin-top: -1px;
+    
+}
+
+.w_m_palabra_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+.w_m_palabras_cinco{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 15px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_palabras_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+/*TRABAJA CON NOSOTROS*/
+.w_m_work_with_us{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 15px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+
+
+.link_correo{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 15px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+
+    text-decoration: line-through;
+}
+
+
+
+/*EMAIL*/
+
+.w_m_tittle_cinco_email{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-top: -380px;
+}
+
+.w_m_tittle_cinco_email:hover{
+    text-decoration: line-through;
+}
+
+.w_m_articulos_cinco_email{
+    margin-top: -330px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+    
+}
+
+.w_m_articulo_cinco_email{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+
+.w_m_correo1{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 15px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_correo1:hover{
+    text-decoration: line-through;
+}
+
+.w_m_correo2{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 15px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: -5px;
+}
+
+.w_m_correo2:hover{
+    text-decoration: line-through;
+}
+
+
+/* LOGIN */
+
+.w_m_login{
+    box-sizing: border-box;
+    text-align: center;
+
+    background-color: none;
+    
+
+    width: 195px;
+    margin-left: 0px;
+}
+
+
+.w_m_formulario__login{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-right: 180px;
+
+    width: 185px;
+
+    margin-top: -14px;
+}
+.w_m_formulario__login h2{
+    font-family: Cocogoose Pro light;
+    
+}
+.w_m_formulario__login input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+
+    
+}
+.w_m_formulario__login button{
+    margin-top: 12px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    
+    margin-right: auto;
+    width: 100px;
+}
+
+/* register */
+.w_m_formulario__register{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-top: -14px;
+    font-family:  Cocogoose Pro light;
+    text-align: center;
+
+    width: 195px;
+    margin-left: -40px;
+}
+
+.w_m_formulario__register input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+}
+
+.w_m_formulario__register button{
+    margin-top: 12px;
+    background: black;
+    color: white;
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+
+.w_m_ventajas h2{
+    box-sizing: border-box;
+    margin-top: 24px;
+    font-family: Cocogoose Pro light;
+}
+.w_m_ventajas p{
+    margin-top: 12px;
+    font-family: Cocogoose Pro light;
+}
+
+
+/* REDES */
+.w_m_articulo-seis{
+    margin-top: 15px ;
+
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cinco-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cinco-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+}
+
+/* pc *//* pc *//* pc *//* pc *//* pc *//* pc *//* pc */
+/* pc *//* pc *//* pc *//* pc *//* pc *//* pc *//* pc */
+
+@media screen  and (min-width: 1477px){
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+body{
+    background-color: none;
+    
+}
+
+
+button{
+    border: none;
+}
+
+
+
+
+/*barra menu*/
+
+
+.w_px_barra_menu_ancla{
+    margin-top: 4px;
+    margin-bottom: 60px;
+    
+    width: 100%;
+
+    height: 20px;
+ 
+    color: none;
+}
+
+.w_m_barra-menu{
+    /*text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    
+    background-color: none;
+    margin-top: 20px;
+
+    list-style: none;
+
+    width: 100%;
+    margin: 1%;
+
+    margin-top: 180px;
+    
+    
+    position: fixed;
+}
+
+
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+/*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*//*UNO*/
+.w_m_uno-l1{
+    background-color: none;
+    width: 0px;
+    
+    
+    
+}
+/* TITULO + PICO */
+.w_m_titulo-uno{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+}
+
+/* CAJAS */
+.w_m_caja_morada_uno_clothing{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    background-color: none;
+
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 50%;
+    
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+
+
+    
+}
+
+
+/*CAJA VERDE*/
+
+.w_m_caja_verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_hoodie{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: 20%;
+
+}
+
+.w_m_sudadera_uno_hoodie:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_uno{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+
+
+    list-style: none;
+    
+    
+   
+
+    background-color: none;
+
+    text-align: left;
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_uno{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    float: left;
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_uno:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_uno-l1  ul {
+    display: none; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_uno-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.dos li:hover > ul {
+    display: grid;
+}
+
+
+/* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*//* DOS*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* DOS */
+.w_m_dos-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-dos{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 145px;
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_dos_characters{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+
+    height: 280px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera_uno_character{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.w_m_sudadera_uno_character:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_dos{
+
+    
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_dos{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_dos{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_dos:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_dos-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_dos-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*//*DROPS*/
+/* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*//* TRES*/
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* TRES */
+.w_m_tres-l1{
+    width: 0px;
+    background-color: none;
+}
+/* TITULO + PICO */
+.w_m_titulo-tres{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 334px;
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_tres_drops{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    background-color: none;
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    background-color: none;
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 520px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+    width: 200px;
+    height: auto;
+}
+
+
+/* CONTADOR TREBOL */
+
+
+
+.caja1{
+    flex: 1;
+    width: 350px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+}
+.caja2{
+    flex: 1;
+    width: 350px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    
+    
+    background-color: none;
+}
+.oferta{
+    margin-bottom: 12px;
+    font-family: Cocogoose Pro light;
+    font-size: 12px;
+    
+}
+
+.names{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+
+    color: black;
+    text-decoration: none;
+
+    text-align: center;
+
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+.names:hover{
+    text-decoration: line-through;
+    
+}
+
+/* NUMEROS MAIN */
+.trebol-contador{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 350px;
+    height: 150px;
+
+    background-color: none;
+}
+/* OTRA BAINA /*/
+.simply-section{
+    font-family: Cocogoose Pro light;
+    width: 24px;
+    height: auto;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: none;
+}
+.simply-amount{
+    font-family: Cocogoose Pro light;
+    display: block;
+    font-size: 40px;
+    font-weight: 150;
+
+    background-color: none;
+}
+.simply-word{
+    font-family: Cocogoose Pro light;
+
+    background-color: none;
+}
+.productos-oferta{
+    margin-top: 12px;
+}
+.productos-oferta:hover{
+    text-decoration: line-through;
+    
+}
+
+.prodcutos{
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: Cocogoose Pro light;
+    color: black;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: none;
+}
+
+.w_m_prodcutos:hover{
+    text-decoration: line-through;
+    
+}
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo-uno{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+/*OFERTA*//*OFERTA*//*OFERTA*/
+.caja13{
+    flex: 1;
+    width: 350px;
+    height: 250px;
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    
+    margin-top: -268px;
+
+    margin-left: 453%;
+    
+    background-color: none;
+}
+/* DESPLEGABLES */
+
+.w_m_tres-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_tres-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO *//* CUATRO */
+.w_m_cuatro-l1{
+    width: 0px;
+    background-color: blue;
+}
+
+/* TITULO + PICO */
+.w_m_titulo-cuatro{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    margin-left: 455px;
+}
+
+
+/* CAJAS */
+.w_m_caja_morada_cuatro_about{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    height: 450px;
+    
+}
+
+
+.w_m_caja-verde{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 5px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_sudadera-uno{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_sudadera-uno:hover{
+    text-decoration: line-through;
+}
+
+/* ARTICULOS */
+.w_m_articulos_cuatro{
+
+    
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cuatro{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cuatro{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 170px;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: -40px;
+
+    
+    text-decoration: none;
+
+    
+}
+
+.w_m_palabra_cuatro:hover{
+    text-decoration: line-through;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cuatro-l1  ul {
+    display: none ; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cuatro-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+
+
+/* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO *//* NUEVO */
+
+/* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO *//* CINCO */
+.w_m_cinco-l1{
+
+
+    width: 0px;
+    background-color: blue;
+}
+/* TITULO + PICO */
+.w_m_titulo-cinco{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+
+
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+    
+    margin-left: 575px;
+    
+}
+
+.w_m_pico{
+    width: 10px;
+    height: 10px;
+}
+
+/* CAJAS */
+.w_m_caja_morada_cinco_contact{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    position: absolute;
+
+    border-radius: 10px;
+
+   
+    
+    
+    width: 95%;
+
+    margin-top: 12px;
+
+    margin-right: 2%;
+
+    transition: 1s;
+
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter:blur(6px);
+
+    
+    
+    height: 320px;
+}
+
+
+.w_m_caja_verde_cinco{
+    
+    margin-top: 20px;
+
+    background-color: none;
+
+    height: 500px;
+
+    margin-right: 25px;
+
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* TITULOS */
+
+
+
+
+.w_m_tittle_cinco{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+}
+
+.w_m_tittle_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+
+
+/* ARTICULOS */
+.w_m_articulos_cinco{
+    margin-top: 40px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+.w_m_articulo_cinco{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+/* PALABRAS SOLAS */
+.w_m_palabra_cinco{
+
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: auto;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    
+
+    text-align: left;
+    
+    text-decoration: none;
+
+    margin-left: -40px;
+
+    margin-top: -1px;
+    
+}
+
+.w_m_palabra_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+.w_m_palabras_cinco{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_palabras_cinco:hover{
+    text-decoration: line-through;
+}
+
+
+/*TRABAJA CON NOSOTROS*/
+.w_m_work_with_us{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+
+
+.link_correo{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+
+    text-decoration: line-through;
+}
+
+
+
+/*EMAIL*/
+
+.w_m_tittle_cinco_email{
+    font-family: Cocogoose Pro light;
+    font-size: 24px;
+    
+
+    color: black;
+
+    list-style: none;
+    
+    background-color: none;
+    
+    float: left;
+
+    text-decoration: none;
+
+    margin-top: -380px;
+}
+
+.w_m_tittle_cinco_email:hover{
+    text-decoration: line-through;
+}
+
+.w_m_articulos_cinco_email{
+    margin-top: -330px;
+    
+    margin-bottom: 20px;
+    background-color: none;
+    
+}
+
+.w_m_articulo_cinco_email{
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+
+    margin-left: -40px;
+}
+
+.w_m_correo1{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: 0px;
+}
+
+.w_m_correo1:hover{
+    text-decoration: line-through;
+}
+
+.w_m_correo2{
+    color: black;
+
+    background-color: none;
+    
+
+    margin-bottom: 20px;
+
+    width: 260px;
+    text-align: left;
+
+    font-family: Cocogoose Pro light;
+    font-size: 18px;
+
+    margin-left: 0px;
+
+    
+    text-decoration: none;
+
+    margin-top: -5px;
+}
+
+.w_m_correo2:hover{
+    text-decoration: line-through;
+}
+
+
+/* LOGIN */
+
+.w_m_login{
+    box-sizing: border-box;
+    text-align: center;
+
+    background-color: none;
+    
+
+    width: 195px;
+    margin-left: 0px;
+}
+
+
+.w_m_formulario__login{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-right: 180px;
+
+    width: 185px;
+
+    margin-top: -14px;
+}
+.w_m_formulario__login h2{
+    font-family: Cocogoose Pro light;
+    
+}
+.w_m_formulario__login input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+
+    
+}
+.w_m_formulario__login button{
+    margin-top: 12px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/* register */
+.w_m_formulario__register{
+    box-sizing: border-box;
+    flex-direction: column;
+
+    background-color: none;
+
+    margin-top: -14px;
+    font-family:  Cocogoose Pro light;
+    text-align: center;
+
+    width: 195px;
+    margin-left: -40px;
+}
+
+.w_m_formulario__register input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+    border: solid 1px black;
+    border-radius: 9px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
+}
+
+.w_m_formulario__register button{
+    margin-top: 12px;
+    background: black;
+    color: white;
+    font: Cocogoose Pro light;
+    border: black solid 1px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+
+.w_m_ventajas h2{
+    box-sizing: border-box;
+    margin-top: 24px;
+    font-family: Cocogoose Pro light;
+}
+.w_m_ventajas p{
+    margin-top: 12px;
+    font-family: Cocogoose Pro light;
+}
+
+
+/* REDES */
+.w_m_articulo-seis{
+    margin-top: 15px ;
+
+    background-color: none;
+    list-style: none;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: none;
+
+    text-align: left;
+}
+
+
+/* DESPLEGABLES */
+
+.w_m_cinco-l1  ul {
+    display:  none; /*none*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*opacity: 0%;*/
+}
+
+.w_m_cinco-l1:hover  ul {
+    display: grid; /*grid*/
+    position: absolute;
+    min-width: 140px;
+    
+    transition: 1s;
+    /*transition: 1.5s;
+    opacity: 100%;*/
+}
+
+
+
+/* SOBRAS BARRA ARRIBA BLUE */
+
+.w_m_barra-menu > li {
+    float: left;
+}
+
+
+.w_m_dos li:hover > ul {
+    display: grid;
+}
+
+}
+
+
